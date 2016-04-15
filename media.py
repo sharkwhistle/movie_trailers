@@ -7,6 +7,8 @@ later in the program to open a web browser"""
 the movie's title, story line, poster image and youtube trailer"""
 
 class Movie():
+    
+    
     def __init__(self, movie_title, movie_storyline, poster_image,
                  trailer_youtube):
         self.title = movie_title
@@ -14,8 +16,9 @@ class Movie():
         self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
 
-"""The show_trailer function is created below to open a web browser
-which will display a youtube trailer when a Movie object is called"""
+
 
     def show_trailer(self):
+        """The show_trailer function is created below to open a web browser
+        which will display a youtube trailer when a Movie object is called"""
         webbrowser.open(self.trailer_youtube_url)
