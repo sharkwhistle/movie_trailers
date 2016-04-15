@@ -1,5 +1,10 @@
 import fresh_tomatoes
 import media
+"""The import statements import information from the fresh_tomatoes.py and
+the media.py files so that their classes may be used in this file!"""
+
+"""6 instances of the Movie class are instantiated below, which will display
+the Movie's title, poster image and youtube trailer"""
 
 pizza = media.Movie("Pizza",
                     "Michael Karthikeyan (Vijay Sethupathi) is" +\
@@ -54,5 +59,13 @@ battle_wizard = media.Movie("The Battle Wizard",
                             "https://www.youtube.com/watch?v=asdLkfFnLQ0"
                             )
 
+"""the variable movies is assigned to an array containing all instances of the
+Movie class"""
+
 movies = [pizza, breakin, opera_jawa, akira, sholay, battle_wizard]
+
+"""the movies array is then called with the open_movie_page function
+(contained in fresh_tomatoes), which will display all of the Movie classes
+on a page in a web browser"""
+
 fresh_tomatoes.open_movies_page(movies)
