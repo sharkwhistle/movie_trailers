@@ -15,7 +15,7 @@ pizza = media.Movie("Pizza",
                     "https://www.youtube.com/watch?v=1ORbkrHs5JU"
                     )
 
-breakin = media.Movie("Breakin'",
+breakin = media.Movie("Breakin",
                       "Kelly is a struggling young jazz dancer and, through" +\
                       "her friend Adam, she is introduced to two Street" +\
                       "dancers, Ozone and Turbo.",
